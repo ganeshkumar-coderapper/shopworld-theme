@@ -1,0 +1,58 @@
+{% for block in section.blocks %}
+  {% if block.settings.tile_img %}
+    <!-- add classes based on video url and product existence-->
+    <div class="med-mas-item {% if block.settings.tile_pr.id %} active-pr {% endif %} {% if block.settings.tile_vdo_url %} active-vdo {% endif %}" data-med_mas_tile_vdo_url="{{ block.settings.tile_vdo_url | replace: "watch?v=", "embed/" }}">
+      <img src="{{ block.settings.tile_img | image_url }}" alt="{{ block.settings.tile_img | image_alt }}">
+      {% if block.settings.tile_pr.id %}
+        <button data-med_mas_tile_pr_id="{{ block.settings.tile_pr.variants[0].id }}" class="med-mas-item-a2c">ADD TO CART</button>
+		<a href="/products/{{ block.settings.tile_pr.handle }}" class="med-mas-item-view">VIEW</a>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% schema %}
+{
+  "name": "Media Masonry",
+  "tag": "div",
+  "class": "med-mas-wrap", 
+  "max_blocks": 20,
+  "blocks": [
+    {
+      "name": "Tile",
+      "type": "tile",
+      "settings": [
+        {
+          "id": "tile_img",
+          "type": "image_picker",
+          "label": "Image"
+        },
+        {
+          "id": "tile_vdo_url",
+          "type": "video_url",
+          "label": "Youtube video URL",
+          "accept": [
+            "youtube"
+          ],
+          "placeholder": "https://www.youtube.com/watch?v=qxhj4ahR4Vg"
+        },
+        {
+          "id": "tile_pr",
+          "type": "product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dev - sections",
+      "blocks": [
+        {
+          "type": "tile"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

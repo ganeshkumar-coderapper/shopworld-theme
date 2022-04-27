@@ -1,0 +1,48 @@
+(function ($) {
+  $(function(){
+	// section - media masonry - item with popup video -  onclick
+  	$('.med-mas-item.active-vdo').click(function () {
+      $('.popup-vdo iframe').attr('src', $(this).data('med_mas_tile_vdo_url'));
+      $('.popup-vdo').addClass('active');
+    });
+
+	// section - media masonry - item with product - add to cart -  onclick
+	$('.med-mas-item button').click(function () {
+      // to prevent recursive add to cart
+	  if ($(this).hasClass('pr-added')){ 
+		console.log('product already added');
+		return false;
+	  }
+
+	  // req data
+	  let cartData = {
+        'items': [{
+          'id': $(this).data('med_mas_tile_pr_id'),
+          'quantity': 1
+        }]
+      };
+		
+	  // post request to cart
+      fetch(window.Shopify.routes.root + 'cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(cartData)
+      })
+      .then(response => {
+        console.log('Success:', response.json());
+		// replace button text
+		$(this).text('Added');
+		// add class to button to prevent recursive add to cart
+		$(this).addClass('pr-added');
+      })
+      .catch((error) => {
+        console.log('Error:', error);
+      });
+    });
+
+	// popup with iframe - close button - onclick
+    $('.popup-vdo .close').click(function () {
+      $('.popup-vdo').removeClass('active');
+    });
+  });
+})(jQuery);

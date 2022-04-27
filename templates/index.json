@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "WELCOME",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 76,
+        "padding_bottom": 76
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Masonry Lookbook",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "165099365404b1fa47": {
+      "type": "rich-text",
+      "blocks": {
+        "16509936545ee90de4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Masonry grids with Image, Image with video poup on click, Image with add to cart on hover<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16509936545ee90de4-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16509750108b6f1d15": {
+      "type": "media-masonry",
+      "blocks": {
+        "16509750104a8bbd13-0": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/black-bag-over-the-shoulder.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": "nivia-basic-duffle-bag"
+          }
+        },
+        "52a2f224-e717-4e98-8305-d143c7fd0213": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/tortoise-shell-sunglass-frames-on-a-white-surface.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": "joe-black-aviator-sunglass"
+          }
+        },
+        "983c6f9f-1b91-4888-841b-03ad2fb4d4ac": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/nature-walk-surrounded-by-birch-trees.jpg",
+            "tile_vdo_url": "https:\/\/www.youtube.com\/watch?v=RzVvThhjAKw",
+            "tile_pr": ""
+          }
+        },
+        "4d4974d0-acfc-475a-9ad7-addc678dd19d": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/the-eiffel-tower-paris.jpg",
+            "tile_vdo_url": "https:\/\/www.youtube.com\/watch?v=RmnRF_lNDbA",
+            "tile_pr": ""
+          }
+        },
+        "03e70d33-be29-4bfd-aa9e-dcd0fbb4263b": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/small-business-interior.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "3455fb02-ca23-4313-a687-bb5339473d97": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/breakfast-from-above.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "c7c350f1-beed-41ba-af0a-cd5170a1941e": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/a-look-across-the-landscape-with-view-of-the-sea.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "19f3faa7-8af7-4f3e-9e7b-ea546d1a9c20": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/cruise-liner-journeying-out-to-sea.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "8bee648e-2a1e-49dd-8c63-50589d52deb2": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/modern-red-sports-car.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "a8071351-a0b3-4608-8061-f94eea6495a5": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/in-flight-over-mountains.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "cb45b345-4d91-4df2-aa2e-a7b004cec98c": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/blueskies-and-waterfalls.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "d1e1b02c-1982-4c3b-8eb5-745db1317986": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/summer_in_tokyo-at-night.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": ""
+          }
+        },
+        "a43805dc-daa7-4a2a-8619-16079148e74c": {
+          "type": "tile",
+          "settings": {
+            "tile_img": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "tile_vdo_url": "",
+            "tile_pr": "pink-printed-top"
+          }
+        }
+      },
+      "block_order": [
+        "16509750104a8bbd13-0",
+        "52a2f224-e717-4e98-8305-d143c7fd0213",
+        "983c6f9f-1b91-4888-841b-03ad2fb4d4ac",
+        "4d4974d0-acfc-475a-9ad7-addc678dd19d",
+        "03e70d33-be29-4bfd-aa9e-dcd0fbb4263b",
+        "3455fb02-ca23-4313-a687-bb5339473d97",
+        "c7c350f1-beed-41ba-af0a-cd5170a1941e",
+        "19f3faa7-8af7-4f3e-9e7b-ea546d1a9c20",
+        "8bee648e-2a1e-49dd-8c63-50589d52deb2",
+        "a8071351-a0b3-4608-8061-f94eea6495a5",
+        "cb45b345-4d91-4df2-aa2e-a7b004cec98c",
+        "d1e1b02c-1982-4c3b-8eb5-745db1317986",
+        "a43805dc-daa7-4a2a-8619-16079148e74c"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "rich_text",
+    "165099365404b1fa47",
+    "16509750108b6f1d15"
+  ]
+}
